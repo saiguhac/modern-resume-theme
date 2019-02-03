@@ -1,9 +1,24 @@
 # Experience template
-- company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+- company: Vedyog Industries
+  link: www.vedyogindustries.com
+  job_title: Management Consultant
+  dates: Dec 2017, May - Jul 2018
+  
+    - company: PAN IIT Biotech Meet
+  link: https://alumni.iitm.ac.in/paniitbiotech2019/
+  job_title: Organiser
+  dates: Jan-Feb 2019
+  
+  - company: Drama Club
+  link: www.saarang.org
+  job_title: Coordinator
+  dates: June 2018 - 
+  
+  - company: Saarang Events (FilmFest)
+  link: www.saarang.org
+  job_title: Super-Coordinator
+  dates: June 2018 - 
+  
+
+ 
+

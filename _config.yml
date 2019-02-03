@@ -3,37 +3,35 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-website: Your website (optional)
+name: Sai Guha C
+title: Sophomore Undergraduate, Biological Sciences, IIT Madras
+email: saiguhac@icloud.com
+website: saiguha.com
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+linkedin_username: saiguhac
+
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: /image/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  Hi, there! I'm Sai Guha, and I'm currently in my second year studying BS-MS in Biological Sciences at IIT Madras.
+    
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
+
+more_title: Skills #(Use this to override about more section title)
+more_content: |
+ Lab skills
+ - Basic Microbiology Lab skills
+ - Basic Biochemistry Lab skills
+ 
+ Software Skills 
+ - Matlab
+ - Basic Python
+ - HTML, CSS,  Javascript
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
@@ -42,18 +40,15 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+  
+  
 # Footer
 footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -61,3 +56,4 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-redirect-from

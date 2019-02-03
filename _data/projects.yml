@@ -1,8 +1,12 @@
 # Project template
-- name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
+- name: iGEM 2018
+  link: 2018.igem.org/Team:IIT-Madras 
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+     The project won a <b>Gold Medal</b> at the Giant Jamboree at Boston.
+     
+     We focused on expandin the toolbox for A. baylyi, primarily creating a T5 synthetic promoter library for the chassis.
+     
+     There was also the public engagement section of the project, which aimed at translating the basics of synthetic biology into various languages.
+     
+
+
